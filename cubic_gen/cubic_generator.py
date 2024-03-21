@@ -4,7 +4,7 @@ from square_gen import exception
 
 class CubicGenerator(square_generator.SquareGenerator):
     @staticmethod
-    def e_cubes(start, end):
+    def e_squares(start, end):
         try:
             if start >= end:
                 raise exception.InvalidBoundaryException
